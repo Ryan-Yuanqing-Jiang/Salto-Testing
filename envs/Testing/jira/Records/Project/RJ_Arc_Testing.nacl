@@ -1,0 +1,13 @@
+jira.Project RJ_Arc_Testing@b {
+  key = "RAT"
+  description = ""
+  name = "RJ-Arc-Testing"
+  projectTypeKey = "software"
+  entityId = "6b425221-bb55-4c84-970e-cf9aeb02d87a"
+  uuid = "6b425221-bb55-4c84-970e-cf9aeb02d87a"
+  issueSecurityScheme = jira.SecurityScheme.instance.RAT__Simplified_Issue_Security_Scheme@fssss
+  leadAccountId = {
+    id = "63ad4e922c70aae1e6fa1f7c"
+    displayName = "Ryan Jiang"
+  }
+}

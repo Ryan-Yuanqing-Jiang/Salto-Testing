@@ -1,0 +1,39 @@
+jira.Board RCT_board@s {
+  name = "RCT board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "63ad4e922c70aae1e6fa1f7c"
+        displayName = "Ryan Jiang"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.RJ_Com_Testing@b
+  }
+  filterId = "10001"
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          "10003",
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          "10004",
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          "10005",
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+}

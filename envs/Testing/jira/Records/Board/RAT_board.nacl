@@ -1,0 +1,45 @@
+jira.Board RAT_board@s {
+  name = "RAT board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "63ad4e922c70aae1e6fa1f7c"
+        displayName = "Ryan Jiang"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.RJ_Arc_Testing@b
+  }
+  filterId = "10000"
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          "10000",
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          "10001",
+        ]
+      },
+      {
+        name = "In Review"
+        statuses = [
+          "10012",
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          "10002",
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+}

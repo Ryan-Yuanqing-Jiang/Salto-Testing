@@ -1,0 +1,13 @@
+jira.Project RJ_Com_Testing@b {
+  key = "RCT"
+  description = ""
+  name = "RJ-Com-Testing"
+  projectTypeKey = "software"
+  entityId = "5870005e-b3b9-43dd-ab43-493cf886d57b"
+  uuid = "5870005e-b3b9-43dd-ab43-493cf886d57b"
+  issueSecurityScheme = jira.SecurityScheme.instance.RCT__Simplified_Issue_Security_Scheme@fssss
+  leadAccountId = {
+    id = "63ad4e922c70aae1e6fa1f7c"
+    displayName = "Ryan Jiang"
+  }
+}

@@ -1,0 +1,12 @@
+jira.Project RJ_Test@s {
+  key = "RT"
+  description = ""
+  name = "RJ Test"
+  projectTypeKey = "product_discovery"
+  entityId = "5342afb8-4423-4b09-9507-0820bc6af5b5"
+  uuid = "5342afb8-4423-4b09-9507-0820bc6af5b5"
+  leadAccountId = {
+    id = "63ad4e922c70aae1e6fa1f7c"
+    displayName = "Ryan Jiang"
+  }
+}
